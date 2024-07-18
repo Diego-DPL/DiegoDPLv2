@@ -5,39 +5,6 @@ import Header from './Components/Header/Header';
 
 function App() {
 
-  const fechas = [{
-    "Fecha":"2024-08-10",
-    "Precio":"FREE",
-    "Moneda": "€",
-    "Lugar":"Pub Principal (Tijola)",
-  },
-  {
-    "Fecha":"2024-08-10",
-    "Precio":"FREE",
-    "Moneda": "€",
-    "Lugar":"One Living (Murcia)",
-  }
-  ,
-  {
-    "Fecha":"2024-08-10",
-    "Precio":"FREE",
-    "Moneda": "€",
-    "Lugar":"Clandestino (Orihuela)",
-  },
-  {
-    "Fecha":"2024-08-10",
-    "Precio":"FREE",
-    "Moneda": "€",
-    "Lugar":"Pan y Agua (Caceres)",
-  },
-  {
-    "Fecha":"2024-08-10",
-    "Precio":"FREE",
-    "Moneda": "€",
-    "Lugar":"San Juan (Caceres)",
-  },
-  ];
-
   return (
     <div className='min-h-screen'> 
       <Header />
