@@ -23,7 +23,7 @@ const FlipFechas = ({ fechas, inicio, izquierdaADerecha }: FlipFechasProps) => {
         x: {
           repeat: Infinity,
           repeatType: "loop",
-          duration: 180, // Duración de la animación para que sea continua
+          duration: 100, // Duración de la animación para que sea continua
           ease: "linear",
         },
       },
@@ -37,7 +37,7 @@ const FlipFechas = ({ fechas, inicio, izquierdaADerecha }: FlipFechasProps) => {
         x: {
           repeat: Infinity,
           repeatType: "loop",
-          duration: 360, // Ajusta la duración de la animación cuando se hace hover
+          duration: 260, // Ajusta la duración de la animación cuando se hace hover
           ease: "linear",
         },
       },
@@ -51,7 +51,7 @@ const FlipFechas = ({ fechas, inicio, izquierdaADerecha }: FlipFechasProps) => {
         x: {
           repeat: Infinity,
           repeatType: "loop",
-          duration: 180, // Ajusta la duración de la animación normal
+          duration: 100, // Ajusta la duración de la animación normal
           ease: "linear",
         },
       },

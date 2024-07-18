@@ -81,7 +81,7 @@ function Home() {
                     DIEGO DPL
                 </motion.h1>
                 <motion.h2 
-                    className='mt-2 text-5xl z-[-5] text-color6 font-bold uppercase sm:text-5xl md:text-6xl lg:text-7xl'
+                    className='mt-2 text-2xl z-[-5] text-color6 font-bold uppercase sm:text-2xl md:text-6xl lg:text-7xl'
                     style={{ y: createTransform(scrollY, -0.7), scale: createScale(scrollY, 0.2) }}
                 >
                     The Last Dance Tour 2024
