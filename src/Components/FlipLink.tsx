@@ -10,7 +10,7 @@
     whileHover="hovered"
     href={href}
     target="_blank"
-    className="relative block overflow-hidden whithe-space-nowrap text-4xl font-bold uppercase sm:text-7xl md:text-8xl lg:text-9xl">
+    className="relative block overflow-hidden whithe-space-nowrap text-2xl font-bold uppercase sm:text-7xl md:text-8xl lg:text-9xl">
         <div>
             {children.split('').map((l, i) => {
                 return (

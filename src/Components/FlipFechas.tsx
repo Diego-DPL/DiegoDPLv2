@@ -59,7 +59,7 @@ const FlipFechas = ({ fechas, inicio, izquierdaADerecha }: FlipFechasProps) => {
   };
 
   return (
-    <div className="relative overflow-hidden whitespace-nowrap text-4xl text-color6 font-bold uppercase sm:text-5xl md:text-6xl lg:text-7xl h-20 mb-10 w-full" style={{ lineHeight: '1.2em' }}>
+    <div className="relative overflow-hidden whitespace-nowrap text-6xl text-color6 font-bold uppercase sm:text-5xl md:text-6xl lg:text-7xl mb-10 w-full" style={{ lineHeight: '1.2em' }}>
       <motion.div
         className="flex"
         animate={controls}
