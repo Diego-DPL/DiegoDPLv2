@@ -88,22 +88,22 @@ function Home() {
                 </motion.h2>
             </section>
 
-            <section className='ProximosEventos h-[100vh] flex flex-col items-center bg-bg1 relative'>
-                <h1 className='text-7xl text-color6 font-bold uppercase text-center mt-20 mb-40'>Próximos Eventos</h1>
+            <section className='ProximosEventos h-[100vh] flex flex-col items-center bg-color2 relative'>
+                <h1 className='text-7xl text-color6 font-bold uppercase text-center mt-20 mb-60'>Próximos Eventos</h1>
                 <FlipFechas fechas={fechas} inicio={0} izquierdaADerecha={false} />
                 <FlipFechas fechas={fechas} inicio={-600} izquierdaADerecha={true} />
                 <FlipFechas fechas={fechas} inicio={-75} izquierdaADerecha={false} />
             </section>
 
-            <section className='gridRRSS grid grid-cols-2 bg-bg1 h-screen'>
-                <section className="grid place-content-center gap-1 px-8 text-color6 mt-[15%]">
-                    <h1 className='mb-10 text-color6 text-7xl font-bold uppercase underline sm:text-7xl md:text-8xl lg:text-9xl'>RRSS:</h1>
-                    <FlipLink href="https://www.instagram.com/diegodpl">Instagram</FlipLink>
-                    <FlipLink href="https://www.youtube.com/channel/UCwLgECSOkIXlSfW2YvS7X8w">Youtube</FlipLink>
-                    <FlipLink href="/https://www.tiktok.com/@diegodpl_">Tiktok</FlipLink>
+            <section className='gridRRSS grid grid-cols-3 bg-color2 h-[100vh]'>
+                <section className="grid col-span-2 place-content-center gap-1 text-color6 ml-5 ">
+                    <h1 className='mb-10 text-color6 text-7xl font-bold uppercase underline sm:text-7xl md:text-7xl lg:text-8xl'>RRSS:</h1>
+                    <FlipLink href="https://www.instagram.com/diegodpl" icon="/assets/rrssSVG/instagram.svg">Instagram</FlipLink>
+                    <FlipLink href="https://www.youtube.com/channel/UCwLgECSOkIXlSfW2YvS7X8w" icon="/assets/rrssSVG/youtube.svg">Youtube</FlipLink>
+                    <FlipLink href="https://www.tiktok.com/@diegodpl_" icon="/assets/rrssSVG/tik-tok.svg">Tiktok</FlipLink>
                 </section>
                 <section className="flex items-center justify-center mt-20">
-                    <img className='w-[50%] h-auto ' src="/assets/DSC06390.jpg" alt="DJ"/>
+                    <motion.img whileHover={{ scale: 1.1 }} className='ml-5 mr-5 w-[90%] h-auto ' src="/assets/DSC06390.jpg" alt="DJ"/>
                 </section>
             </section>
         </div>
