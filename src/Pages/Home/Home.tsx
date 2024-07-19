@@ -89,10 +89,121 @@ function Home() {
             </section>
 
             <section className='ProximosEventos h-[100vh] flex flex-col items-center bg-color2 relative'>
-                <h1 className='text-7xl text-color6 font-bold uppercase text-center mt-20 mb-60'>Próximos Eventos</h1>
+                <h1 className='text-7xl text-color6 font-bold uppercase underline text-center mt-20 mb-60'>Próximos Eventos</h1>
                 <FlipFechas fechas={fechas} inicio={0} izquierdaADerecha={false} />
                 <FlipFechas fechas={fechas} inicio={-600} izquierdaADerecha={true} />
                 <FlipFechas fechas={fechas} inicio={-75} izquierdaADerecha={false} />
+            </section>
+
+            <section className='Canciones flex flex-col items-center bg-color2 relative'>
+                <h1 className='text-7xl text-color6 font-bold uppercase underline text-center mt-20 mb-60'>Canciones</h1>
+                <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10 w-[80%] md:w-[70%] lg:w-[60%]'>
+                    <motion.div 
+                        className="cancion relative"
+                        whileHover={{ scale: 1.05 }}
+                    >
+                        <a href="https://open.spotify.com/track/00ezmLeUiLssWmBNTwcDC4?si=5f57f55e440749d4" target="_blank">
+                            <motion.img whileHover={{ scale: 1.1 }} src="assets/Portadas/laHistoriaLorenaPortada.jpeg" alt="Portada de la canción" />
+                            <motion.div 
+                                className="titulo absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 text-white text-2xl opacity-0 hover:opacity-100 transition-opacity duration-500"
+                                style={{ width: '100%', height: '100%' }}
+                            >
+                                La Historia
+                            </motion.div>
+                        </a>
+                    </motion.div>
+                    <motion.div 
+                        className="cancion relative"
+                        whileHover={{ scale: 1.05 }}
+                    >
+                        <a href="https://open.spotify.com/track/5w4BIj5ZrhJw5REaKlIUCF?si=ba17136b2cda4157" target="_blank">
+                            <motion.img whileHover={{ scale: 1.1 }} src="assets/Portadas/brokenJapPortada.jpeg" alt="Portada de la canción" />
+                            <motion.div 
+                                className="titulo absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 text-white text-2xl opacity-0 hover:opacity-100 transition-opacity duration-500"
+                                style={{ width: '100%', height: '100%' }}
+                            >
+                                Broken
+                            </motion.div>
+                        </a>
+                    </motion.div>
+                    <motion.div 
+                        className="cancion relative"
+                        whileHover={{ scale: 1.05 }}
+                    >
+                        <a href="https://open.spotify.com/track/0uvbFSO0zi5YR9tXxYOtXq?si=6f184b5a343a4095" target="_blank">
+                            <motion.img whileHover={{ scale: 1.1 }} src="assets/Portadas/seQueJussoPortada.jpeg" alt="Portada de la canción" />
+                            <motion.div 
+                                className="titulo absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 text-white text-2xl opacity-0 hover:opacity-100 transition-opacity duration-500"
+                                style={{ width: '100%', height: '100%' }}
+                            >
+                                Se Que
+                            </motion.div>
+                        </a>
+                    </motion.div>
+                    <motion.div 
+                        className="cancion relative"
+                        whileHover={{ scale: 1.05 }}
+                    >
+                        <a href="https://open.spotify.com/track/0WQ1Q1O1Zpqv4Hr8EMA2cW?si=b0b866b6ccd842ec" target="_blank">
+                            <motion.img whileHover={{ scale: 1.1 }} src="assets/Portadas/intentoOlvidarteSergioPortada.jpeg" alt="Portada de la canción" />
+                            <motion.div 
+                                className="titulo absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 text-white text-2xl opacity-0 hover:opacity-100 transition-opacity duration-500"
+                                style={{ width: '100%', height: '100%' }}
+                            >
+                                Intento Olvidarte
+                            </motion.div>
+                        </a>
+                    </motion.div>
+                    <motion.div 
+                        className="cancion relative"
+                        whileHover={{ scale: 1.05 }}
+                    >
+                        <a href="https://open.spotify.com/track/2QY2jHI8yCLCRrWrU70Q6Q?si=7d7aaf869fe14d4d" target="_blank">
+                            <motion.img whileHover={{ scale: 1.1 }} src="assets/Portadas/legacyJapPortada.jpeg" alt="Portada de la canción" />
+                            <motion.div 
+                                className="titulo absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 text-white text-2xl opacity-0 hover:opacity-100 transition-opacity duration-500"
+                                style={{ width: '100%', height: '100%' }}
+                            >
+                                Legacy
+                            </motion.div>
+                        </a>
+                    </motion.div>
+                    <motion.div 
+                        className="cancion relative"
+                        whileHover={{ scale: 1.05 }}
+                    >
+                        <a href="https://open.spotify.com/intl-es/track/2cDvX0gvoWY4D0YxzMiezR?si=f69ad1675ee7457c" target="_blank">
+                            <motion.img whileHover={{ scale: 1.1 }} src="assets/Portadas/SabadoDePasionAlbaFernandez.jpeg" alt="Portada de la canción"/>
+                            <motion.div 
+                                className="titulo absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 text-white text-2xl opacity-0 hover:opacity-100 transition-opacity duration-500"
+                                style={{ width: '100%', height: '100%' }}
+                            >
+                                Sabado de Pasion
+                            </motion.div>
+                        </a>
+                    </motion.div>
+                    <motion.div 
+                        className="cancion relative"
+                        whileHover={{ scale: 1.05 }}
+                    >
+                        <a href="https://open.spotify.com/track/5i5JnGhfJTbcPAZZmdFwm8?si=4a9d57ba320b4f74" target="_blank">
+                            <motion.img whileHover={{ scale: 1.1 }} src="assets/Portadas/noSeJapPortada.jpeg" alt="Portada de la canción"/>
+                            <motion.div 
+                                className="titulo absolute inset-0 flex items-center justify-center bg-black bg-opacity-75 text-white text-2xl opacity-0 hover:opacity-100 transition-opacity duration-500"
+                                style={{ width: '100%', height: '100%' }}
+                            >
+                                No Se
+                            </motion.div>
+                        </a>
+                    </motion.div>
+                </div>
+                <a 
+                    href="https://open.spotify.com/intl-es/artist/3e2ozZFni4aM4tX9xFWFs5" 
+                    target="_blank"
+                    className="mt-20 px-6 py-3 w-[50%] text-center rounded-full bg-color6 text-color2 text-xl font-bold uppercase transition duration-300 transform hover:scale-105"
+                >
+                    Abrir Spotify
+                </a>
             </section>
 
             <section className='gridRRSS grid grid-cols-3 bg-color2 h-[100vh]'>
